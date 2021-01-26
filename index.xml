@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Access2vivek</title>
+    <link>https://access2content.github.io/</link>
+    <description>Recent content on Access2vivek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://access2content.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Vivek</title>
+      <link>https://access2content.github.io/posts/intro/</link>
+      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://access2content.github.io/posts/intro/</guid>
+      <description> About Me  I am a geek who loves coding in a unconventional manner and understand all about technologies.
+  Languages that I know    iMacros
+  Javascript
+  MySQL
+  Python
+  HTML
+    </description>
+    </item>
+    
+  </channel>
+</rss>
