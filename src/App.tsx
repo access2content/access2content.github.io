@@ -1,48 +1,26 @@
-// import ListGroup from "./components/ListGroup";
-// import Alert from "./components/Alert";
-
-import Alert from "./components/Alert";
-import Button from "./components/Button";
-
-// function useListGroup() {
-//   const cities = ["Mumbai", "New Delhi", "Chandigarh", "Bengaluru", "Honolulu"];
-//   const handleSelectItem = (item: string) => {
-//     console.log("You selected", item);
-//   };
-
-//   return (
-//     <div>
-//       <ListGroup
-//         items={cities}
-//         heading="Indian Cities"
-//         onSelectItem={handleSelectItem}
-//       />
-//     </div>
-//   );
-// }
-
-import { MouseEvent, useState } from "react";
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
-  const [alertActive, setAlertActive] = useState(false);
-
-  const alertCloseHandler = () => {
-    console.log("Closing the alert");
-    setAlertActive(false);
-  };
-
-  const buttonClickHandler = (event: MouseEvent) => {
-    console.log("A button click event occured:", event);
-    setAlertActive(true);
-  };
-
   return (
-    <>
-      {alertActive && <Alert onClose={alertCloseHandler}>I am an alert</Alert>}
-      <Button onClick={buttonClickHandler} color="secondary">
-        Click Me!
-      </Button>
-    </>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.tsx</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
   );
 }
+
 export default App;
