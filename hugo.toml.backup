@@ -1,4 +1,0 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'access2content'
-theme = 'hugo-profile'
