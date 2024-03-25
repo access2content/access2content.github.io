@@ -1,25 +1,22 @@
 import "./App.css";
 import { useState } from "react";
-import Button from "./components/Button";
-import Alert from "./components/Alert";
+import Navbar from "./components/Navbar";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Services from "./pages/Services";
+import Blog from "./pages/Blog";
 
 function App() {
-  const [alertActive, setAlertActive] = useState(false);
-
-  const buttonClickHandler = () => {
-    setAlertActive(true);
-  };
-
-  const onCloseHandler = () => {
-    setAlertActive(false);
-  };
-
   return (
     <div className="App">
-      {alertActive && (
-        <Alert onClose={onCloseHandler}>Custom alert message</Alert>
-      )}
-      <Button onClick={buttonClickHandler}>Show alert!</Button>
+      <Navbar></Navbar>
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Home></Home>}></Route>
+          <Route path="/services" element={<Services></Services>}></Route>
+          <Route path="/blog" element={<Blog></Blog>}></Route>
+        </Routes>
+      </div>
     </div>
   );
 }
