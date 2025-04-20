@@ -1,0 +1,69 @@
+#+TITLE: How to save your time as a developer
+
+* Who is this for?
+- If you spend multiple hours per day programming
+- Interested in speeding up your workflow
+- If you want to become a 10x developer
+- If you just want to look cool
+* Introduction
+As a developer, you spend most of your time on your computer.
+
+Have you ever thought what separates a good developer from a great developer? Is it skills, it is technique?
+
+- What skills does it take to be a good developer?
+- What does your typical work day look like?
+* Where do you spend your time?
+You spend 20% of your time adding new code and 80% of time on other things.
+
+- Opening files
+- Scrolling
+- Finding text
+- Copying
+- Pasting
+- Clicking on the exact pixel
+- Centering part of code on screen
+- Switching between application
+- Reading code
+- Finding Bugs
+- Testing
+- EDITING text
+** Task 1
+Spend time noticing WHAT actions you perform during your typical day. The more you understand what you do, the better you can optimize every aspect.
+* Typical Workflow
+- Open the folder in your text editor
+- Typing text
+- Going to the mouse to scroll/Click
+- Copying a region of text with the mouse
+- Deleting a region of text with the mouse
+- Opening Postman
+- Opening Web Browser
+- Testing
+* What does a mouse do?
+A mouse has 3 buttons to perform the follwing operations:
+- Scroll Up and Scroll Down
+- Click on a specific pixel
+- Right-click for more options (Rarely Used)
+* What does EDITING text mean?
+Does it just mean ADDING new code?
+
+- Copying
+- Pasting
+- Replace
+- Remove
+- Searching
+- Delete
+- Change Case
+* Your best friend
+Your IDE/Text Editor is your best friend. You will be spending a majority of your time on your text editor.
+
+Why not learn all the functionality and Shortcuts for it?
+
+What are the things you take for granted, but are features?
+* FEATURES of Text Editor
+- Syntax Highlighting
+- Files navigation
+- Auto Completion
+- Auto Brackets
+- Going to Definition
+- Variable renaming
+- Multiple Cursors
