@@ -1,4 +1,5 @@
 #+TITLE: How to save your time as a developer
+#+DATE: 2025-04-20
 
 * Who is this for?
 - If you spend multiple hours per day programming
